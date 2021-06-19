@@ -22,7 +22,7 @@ function init() {
   const pinterestImg = document.querySelector(".pinterest-img");
 
   let postUrl = encodeURI(document.location.href);
-  let postTitle = encodeURI("Hi everyone, if you want to download Gurbani Satus or Images, So please checkout Pretier ");
+  let postTitle = encodeURI("Hi everyone, if you want to download Gurbani Satus or Images, So please checkout Pretier");
   let postImg = encodeURI(pinterestImg.src);
 
   facebookBtn.setAttribute(
